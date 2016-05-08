@@ -16,7 +16,7 @@
         function _getMovies($query) {
         	
             var xmlhttp = new XMLHttpRequest();
-            var url = "http://mytomcat.us-west-2.elasticbeanstalk.com/controller/search/"+$query;
+            var url = "http://flickhunter.us-west-2.elasticbeanstalk.com/controller/search/"+$query;
             var movies;
             xmlhttp.open("GET", url, false);
             xmlhttp.send();
